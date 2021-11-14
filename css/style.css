@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Yuji+Mai&display=swap');
+
+body{
+   background-color:  #131722;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Yuji Mai', serif;
+}
+
+/* canvas{
+    
+    height: 80vh;
+} */

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projectile Motion</title>
+
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body >
+    <div class="container">
+
+    <form action="" method="get" id="values" >
+     <div class="row justify-content-center align-items-center p-4">
+        <p class="text-white h4 col-md-6">
+            <label for="initspeed" >Initial speed</label>
+            <input type="text" name="initspeed" id="initspeed" placeholder="Write Intial Speed"/> m/s
+        </p>
+        <p class="text-white h4 col-md-6 d-flex justify-content-center align-items-center">
+            <label for="angle">Angle</label>
+            <input type="text" name="angle" id="angle"  placeholder="Write The Angle" /> degrees
+        </p>
+     </div>
+        <p>
+            <input type="button" id="animate" value="GO!" class="form-control btn btn-success mb-2" />
+            <input type="button" id="reset" value="reset" class="form-control btn btn-warning mb-3" />
+        </p>
+    
+        <canvas id="graph" width="640" height="480" style="border:1px solid #000;">Your browser is not supported.</canvas>
+        
+        <p class="text-white">t = <input type="text" id="time"  />s </p>
+        
+    </form>
+</div>
+  
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/projectile.js" type="text/javascript"></script>
+</body>
+</html>
